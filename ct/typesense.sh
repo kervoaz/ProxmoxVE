@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
-# Copyright (c) 2021-2025 community-scripts ORG
+source <(curl -fsSL https://raw.githubusercontent.com/kervoaz/ProxmoxVE/main/misc/build.func)
+# Copyright (c) 2021-2025 kervoaz ORG
 # Author: tlissak | Co-Author MickLesk
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/kervoaz/ProxmoxVE/raw/main/LICENSE
 # Source: https://typesense.org/
 
 APP="TypeSense"

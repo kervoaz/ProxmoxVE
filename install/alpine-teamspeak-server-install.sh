@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2025 community-scripts ORG
+# Copyright (c) 2021-2025 kervoaz ORG
 # Author: tremor021 (Slaviša Arežina)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/kervoaz/ProxmoxVE/raw/main/LICENSE
 # Source: https://teamspeak.com/en/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
