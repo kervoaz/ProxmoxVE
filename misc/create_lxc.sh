@@ -262,6 +262,8 @@ alpine | fedora | rocky | centos)
   ;;
 esac
 
+msg_error "Template search pattern: '$TEMPLATE_SEARCH'"
+
 # 1. Check local templates first
 msg_info "Searching for template '$TEMPLATE_SEARCH'"
 mapfile -t TEMPLATES < <(
