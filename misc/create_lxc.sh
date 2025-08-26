@@ -275,6 +275,7 @@ if [ ${#TEMPLATES[@]} -gt 0 ]; then
 else
   msg_info "No local template found, checking online repository"
   pveam update >/dev/null 2>&1
+  msg_info "No local template found, checking online repository #'$TEMPLATE_SEARCH' # '$TEMPLATE_PATTERN' #"
   mapfile -t TEMPLATES < <(
     pveam update >/dev/null 2>&1 &&
       pveam available -section system |
